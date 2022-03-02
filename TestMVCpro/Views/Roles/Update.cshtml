@@ -1,0 +1,15 @@
+﻿@model IdentityRole
+@{
+    ViewData["Title"] = "Update";
+}
+
+<h2>Update</h2>
+
+<form class="form-group" asp-controller="Roles" asp-action="Update">
+    <input type="hidden" asp-for="Id">
+    <label asp-for="Name">Name</label>
+    <input class="form-control" asp-for="Name" type="text">
+    <br /><br />
+    <input type="submit" value="Edite" class="btn btn-primary form-control">
+</form>
+<a asp-controller="Roles" asp-route-RoleId="@Model.Id" asp-action="AddOrRemoveUser" class="btn btn-block btn-warning">Add OR Remove User</a>

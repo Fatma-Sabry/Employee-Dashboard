@@ -1,0 +1,70 @@
+﻿@model TestMVCpro.BLL.Models.EmployeeVM
+
+@{
+    ViewData["Title"] = "Detete";
+}
+
+@section bootostarbsection
+{
+    <link href="~/plugins/bootstrap-select/css/bootstrap-select.css" rel="stylesheet" />
+}
+<div class="block-header">
+    <h2>Delete Employee</h2>
+</div>
+<form class="form-group" asp-controller="Employee" asp-action="Delete">
+    <center>
+        <p>Are you Sure To Delete?</p>
+    </center>
+    <label asp-for="ID">Employee ID</label>
+    <input type="text" class="form-control" asp-for="ID" readonly>
+    <label asp-for="Name">Employee Name</label>
+    <input type="text" class="form-control" asp-for="Name" readonly>
+    <br /> <br />
+    <label asp-for="Salary">Depatment Code</label>
+    <input type="text" class="form-control" asp-for="Salary" readonly>
+    <br /> <br />
+    <label asp-for="Address">Address</label>
+    <input type="text" class="form-control" asp-for="Address" readonly>
+    <br />
+    <br />
+
+    <label asp-for="HireDate">HireDate </label>
+    <input type="text" class="form-control" asp-for="HireDate" readonly>
+    <br />
+    <br />
+
+    <label asp-for=" Email">Email</label>
+    <input type="email" class="form-control" asp-for="Email" readonly>
+    <br />
+    <br />
+
+    <input type="hidden" class="form-control" asp-for="PhotoName" readonly>
+    <input type="hidden" class="form-control" asp-for="CvName" readonly>
+
+    <br />
+    <br />
+
+
+    <div class="demo-checkbox">
+        <input type="checkbox" asp-for="IsActive" checked="" readonly>
+        <label asp-for="IsActive">IsActive</label>
+    </div>
+    <br />
+    <br />
+    <select asp-for="DepartmentID" asp-items=" (SelectList)ViewBag.DepartmentList">
+        <option>Chose Department</option>
+    </select>
+    <br />
+    <br />
+
+    <label asp-for="Notes">Notes</label>
+<textarea rows="4" class="form-control" asp-for="Notes" readonly></textarea>
+
+    <br />
+    <br />
+    <center>
+        <a asp-controller="Department" asp-action="Index" class="btn btn-primary">Back to Home</a>
+        <input type="submit" value="Delete" class="btn btn-primary">
+        <input type="reset" value="Cancle" class="btn btn-danger">
+    </center>
+</form>

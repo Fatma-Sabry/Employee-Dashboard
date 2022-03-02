@@ -1,0 +1,21 @@
+﻿ 
+@model IdentityUser
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+
+    <label asp-for="Email">Email</label>
+    <input asp-for="Email" type="email" class="form-control" readonly>
+    <label asp-for="UserName">User Name</label>
+    <input asp-for="UserName" type="text" class="form-control" readonly>
+    <label asp-for="Id">Id</label>
+    <input asp-for="Id" type="text" class="form-control" readonly>
+   
+    @*<input asp-for="ConcurrencyStamp" type="hidden">
+        <input asp-for="PasswordHash" type="hidden">
+        <input asp-for="NormalizedEmail" type="hidden">
+        <input asp-for="NormalizedUserName" type="hidden">*@
+

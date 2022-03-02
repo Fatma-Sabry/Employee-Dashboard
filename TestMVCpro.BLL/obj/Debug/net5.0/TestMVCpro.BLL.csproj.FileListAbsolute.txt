@@ -1,0 +1,15 @@
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.BLL\bin\Debug\net5.0\TestMVCpro.BLL.deps.json
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.BLL\bin\Debug\net5.0\TestMVCpro.BLL.dll
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.BLL\bin\Debug\net5.0\ref\TestMVCpro.BLL.dll
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.BLL\bin\Debug\net5.0\TestMVCpro.BLL.pdb
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.BLL\obj\Debug\net5.0\TestMVCpro.BLL.csproj.AssemblyReference.cache
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.BLL\obj\Debug\net5.0\TestMVCpro.BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.BLL\obj\Debug\net5.0\TestMVCpro.BLL.AssemblyInfoInputs.cache
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.BLL\obj\Debug\net5.0\TestMVCpro.BLL.AssemblyInfo.cs
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.BLL\obj\Debug\net5.0\TestMVCpro.BLL.csproj.CoreCompileInputs.cache
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.BLL\obj\Debug\net5.0\TestMVCpro.BLL.dll
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.BLL\obj\Debug\net5.0\ref\TestMVCpro.BLL.dll
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.BLL\obj\Debug\net5.0\TestMVCpro.BLL.pdb
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.BLL\bin\Debug\net5.0\TestMVCpro.DAL.dll
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.BLL\bin\Debug\net5.0\TestMVCpro.DAL.pdb
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.BLL\obj\Debug\net5.0\TestMVCpro.BLL.csproj.CopyComplete

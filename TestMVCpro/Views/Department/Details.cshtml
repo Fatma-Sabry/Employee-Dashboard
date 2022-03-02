@@ -1,0 +1,22 @@
+﻿@model TestMVCpro.BLL.Models.DepartmentVM
+@{
+    ViewData["Title"] = "Details";
+}
+<div class="block-header">
+    <h2>Details</h2>
+</div>
+<label asp-for="ID">Depatment ID</label>
+<input type="text" class="form-control" asp-for="ID" disabled>
+<br />
+<br />
+<label asp-for="Name">Depatment Name</label>
+<input type="text" class="form-control" asp-for="Name" disabled>
+<br />
+<br />
+<label asp-for="Code">Depatment Code</label>
+<input type="text" class="form-control" asp-for="Code" disabled>
+<br />
+<br />
+<a asp-controller="Department" asp-action="Index" class="btn btn-primary">Back to Home</a>
+<a asp-controller="Departmen" asp-action="Delete" class="btn btn-primary" asp-route-ID="@Model.ID">Back to Delete</a>
+<a asp-controller="Departmen" asp-action="Update" class="btn btn-primary" asp-route-ID="@Model.ID">Back to Update</a>

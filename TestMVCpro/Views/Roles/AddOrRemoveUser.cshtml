@@ -1,0 +1,24 @@
+﻿@model List<TestMVCpro.BLL.Models.UserInRoleVM>
+@{
+    ViewData["Title"] = "AddOrRemoveUser";
+    var RoleId = ViewBag.RoleId;
+}
+
+<h2>AddOrRemoveUser</h2>
+
+
+<form method="post">
+    @for (int i = 0; i < Model.Count; i++)
+    {
+        <input type="checkbox" asp-for="@Model[i].IsSelected" class="filled-in">
+        <label asp-for="@Model[i].IsSelected">@Model[i].UserName</label>
+        <input type="hidden" asp-for="@Model[i].UserId">
+        <input type="hidden" asp-for="@Model[i].UserName">
+
+    }
+    <div class="card-footer">
+        <input type="submit" value="Edit" class="btn btn-primary" />
+    </div>
+
+</form>
+<a asp-controller="Roles" asp-action="Update" asp-route-id="@RoleId">Cancle</a>

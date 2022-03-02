@@ -1,0 +1,39 @@
+﻿@model IEnumerable<TestMVCpro.BLL.Models.DepartmentVM>
+@{
+    ViewBag.Title = "Department";
+}
+<style>
+    th {text-align:center !important;
+    }
+</style>
+<div class="block-header">
+    <h2>Department Card</h2>
+</div>
+<a asp-controller="Department" asp-action="Create" class="btn btn-primary">Crearte new Departmen</a>
+<table class="table table-striped table-bordered table-hover text-center font-weight-bold">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Code</th>
+            <th>Details</th>
+            <th>Update</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <th>@item.ID</th>
+            <th>@item.Name</th>
+            <th>@item.Code</th>
+            <th><a asp-controller="Department" asp-action="Details" class="btn btn-info" asp-route-ID ="@item.ID">Details</a></th>
+            <th><a asp-controller="Department" asp-action="Update" class="btn btn-warning" asp-route-ID="@item.ID">Update</a></th>
+            <th><a asp-controller="Department" asp-action="Detete" class="btn btn-danger" asp-route-ID="@item.ID">Delete</a></th>
+
+
+        </tr>
+        }
+    </tbody>
+</table>

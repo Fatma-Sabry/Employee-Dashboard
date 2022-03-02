@@ -1,0 +1,15 @@
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.DAL\bin\Debug\net5.0\TestMVCpro.DAL.deps.json
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.DAL\bin\Debug\net5.0\TestMVCpro.DAL.dll
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.DAL\bin\Debug\net5.0\ref\TestMVCpro.DAL.dll
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.DAL\bin\Debug\net5.0\TestMVCpro.DAL.pdb
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.DAL\obj\Debug\net5.0\TestMVCpro.DAL.csproj.AssemblyReference.cache
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.DAL\obj\Debug\net5.0\TestMVCpro.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.DAL\obj\Debug\net5.0\TestMVCpro.DAL.AssemblyInfoInputs.cache
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.DAL\obj\Debug\net5.0\TestMVCpro.DAL.AssemblyInfo.cs
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.DAL\obj\Debug\net5.0\TestMVCpro.DAL.csproj.CoreCompileInputs.cache
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.DAL\obj\Debug\net5.0\TestMVCpro.DAL.dll
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.DAL\obj\Debug\net5.0\ref\TestMVCpro.DAL.dll
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.DAL\obj\Debug\net5.0\TestMVCpro.DAL.pdb
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.DAL\bin\Debug\net5.0\TestMVCpro.DAL.runtimeconfig.json
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.DAL\bin\Debug\net5.0\TestMVCpro.DAL.runtimeconfig.dev.json
+E:\Route\ENG Ahmed ELgendy\Project\TestMVCpro\TestMVCpro.DAL\obj\Debug\net5.0\TestMVCpro.DAL.genruntimeconfig.cache

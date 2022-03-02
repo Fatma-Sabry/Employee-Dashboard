@@ -1,0 +1,21 @@
+﻿@model IdentityUser
+@{
+    ViewData["Title"] = "Update";
+}
+
+<h2>Update</h2>
+ 
+<form class="form-group" asp-controller="User" asp-action="Update">
+    <label asp-for="Email">Email</label>
+    <input asp-for="Email" type="email" class="form-control">
+    <label asp-for="UserName">User Name</label>
+    <input asp-for="UserName" type="text" class="form-control">
+    <label asp-for="Id">Id</label>
+    <input asp-for="Id" type="text" class="form-control">
+    <input type="submit" class="btn btn-primary form-control" value="Edite">
+    @*<input asp-for="ConcurrencyStamp" type="hidden">
+    <input asp-for="PasswordHash" type="hidden">
+    <input asp-for="NormalizedEmail" type="hidden">
+    <input asp-for="NormalizedUserName" type="hidden">*@
+
+</form>
